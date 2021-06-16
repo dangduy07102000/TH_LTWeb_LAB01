@@ -1,0 +1,281 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav {
+    justify-content: center;
+}
+
+    nav a {
+        color: #757575;
+    }
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+    .header p {
+        border-left: 3px solid #e5e5e5;
+        margin: 8px;
+    }
+
+.button {
+    margin-left: 200px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.sub-button {
+    height: 32px;
+    line-height: 32px;
+    padding: 0 10px;
+    border: 2px solid #e5e5e5;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #757575;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.button > .sub-button:hover {
+    background: #e5e5e5;
+}
+
+.sub-button > a > i:hover {
+    color: #0099FF;
+}
+
+.fa-clock:before {
+    margin-right: 5px;
+}
+
+.fa-globe-asia:before {
+    margin-right: 5px;
+}
+
+.box {
+    line-height: 40px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.container-1 {
+    height: 32px;
+    line-height: 32px;
+    border-radius: 20px;
+    border: 2px solid #e5e5e5;
+    padding: 0 2px;
+    margin: 0;
+}
+
+#search {
+    font-size: 16px;
+    border: none;
+}
+
+.fa-search:before {
+    margin-left: 10px;
+}
+
+.fa-user:before {
+    margin-right: 5px;
+}
+
+.menu {
+}
+
+    .menu > ul {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        line-height: 40px;
+        border-bottom: 2px solid #e5e5e5;
+    }
+
+    .menu ul li {
+        display: inline-block;
+        position: relative;
+    }
+
+    .menu ul .listmenu a:hover {
+        color: #0099FF;
+    }
+
+    .menu ul li:hover > .sub-menu {
+        opacity: 1;
+        visibility: visible;
+    }
+
+.listmenu {
+    float: left;
+    padding-right: 20px;
+}
+
+    .listmenu > a > b {
+        padding: 22px 0;
+    }
+
+ul > .submenu {
+    display: none;
+}
+
+.sub-menu {
+    width: 190px;
+    position: absolute;
+    left: 0px;
+    z-index: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity linear 0.15s;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+    background: #fff;
+    top: calc(100% + 11px);
+}
+
+    .sub-menu li {
+        display: block;
+        font-size: 16px;
+    }
+
+        .sub-menu li a {
+            width: 150px;
+            padding: 0 20px;
+            display: block;
+        }
+
+            .sub-menu li a:hover {
+                background: #e5e5e5;
+            }
+
+.theNew {
+    display: flex;
+    padding: 20px;
+}
+
+    .theNew > div {
+        width: 1100px;
+        display: flex;
+        border-bottom: 2px solid #e5e5e5;
+        padding-bottom: 10px;
+    }
+
+.newTop {
+    display: flex;
+}
+
+    .newTop > div {
+        background: #e5e5e5;
+        padding: 20px;
+        margin-bottom: 5px;
+        margin-top: 1px;
+    }
+
+    .newTop h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+.titleNew {
+    font-family: Century;
+}
+
+    .titleNew:hover {
+        color: #0066FF;
+    }
+
+.newTop p {
+    padding-top: 20px;
+    line-height: 20px;
+}
+
+.newTop > h3 > a > b {
+    font-family: Arial;
+    font-size: 30px;
+}
+
+.newBot {
+    display: flex;
+    padding-top: 15px;
+}
+
+    .newBot > div.text {
+        max-width: 240px;
+    }
+
+    .newBot > div.padding {
+        padding-left: 20px;
+    }
+
+    .newBot > div.text > a > p {
+        padding-top: 15px;
+    }
+
+    .newBot > div > div > a > #author > i {
+        float: left;
+        margin-top: 45px;
+    }
+
+    .newBot > div > a > p > i {
+        font-size: 13px;
+    }
+
+        .newBot > div > a > p > i:hover {
+            color: #0066FF;
+        }
+
+    .newBot > div > a > i:hover {
+        color: #0066FF;
+    }
+
+.menu > div > div {
+    display: flex;
+}
+
+.newBot > div > div > a > img {
+    margin-left: 35px;
+    background: #e5e5e5;
+    border-radius: 50%;
+}
+
+.newBot > div > div > a > p > i {
+    font-size: 13px;
+}
+
+    .newBot > div > div > a > p > i:hover {
+        color: #0066FF;
+    }
+
+.newBot > div > div > a > i {
+    float: none;
+    font-size: 13px;
+    margin-left: -235px;
+}
+
+    .newBot > div > div > a > i:hover {
+        color: #0066FF;
+    }
+
+.fa-comment-alt:before {
+    padding-right: 4px;
+}
+
+#border {
+    height: 180px;
+    border-left: 3px solid #e5e5e5;
+    margin-left: 18px;
+}
+
+.QC {
+    padding-left: 20px;
+}
+
+.listNew {
+    height: 50px;
+}
